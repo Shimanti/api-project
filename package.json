@@ -1,0 +1,23 @@
+{
+  "name": "api-project",
+  "version": "1.0.0",
+  "description": "API build from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shimanti/api-project.git"
+  },
+  "author": "Shimanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shimanti/api-project/issues"
+  },
+  "homepage": "https://github.com/Shimanti/api-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
