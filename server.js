@@ -16,6 +16,6 @@ app.get('/api/recipes', (req, res) => {
   res.json(cooking)
 })
 
-app.listen(PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
   console.log(`Server running on port ${PORT}`)
 })
